@@ -4,7 +4,7 @@ The SRA (sequenced read archive) toolkit is a way of downloading published data 
 
 This guide will explain how to download data using the command line on the HPC
 ```
-prefetch -v SRR3311812
+prefetch SRR3311812
 ```
 
 ## installation/toolkit
