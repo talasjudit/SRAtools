@@ -42,8 +42,8 @@ We can then proceed to extracting the fastq files.
 On the interactive node:
 
 I want to perform this RNA-seq analysis in my scratch space so I need to use an interactive node to extract the fastq files from the folder in my home directory.
+
 ```
-cd ncbi/public/sra/
 ~/sratoolkit.3.0.0-centos_linux64/bin/fastq-dump --split-files --outdir ~/myscratch/tRNA/ SRR3311812/SRR3311812.sra
 ```
 Remove the sra file after extracting fastq file to save the space.
