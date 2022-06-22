@@ -3,9 +3,6 @@
 The SRA (sequenced read archive) toolkit is a way of downloading published data from NCBI. https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=announcement
 
 This guide will explain how to download data using the command line on the HPC
-```
-prefetch SRR3311812
-```
 
 ## installation/toolkit
 
