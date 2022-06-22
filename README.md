@@ -16,6 +16,12 @@ This should create a folder called ~/sratoolkit.3.0.0-centos_linux64
 
 in the bin folder there should be a range of functions. We'll use 'prefetch' and 'fastq-dump'
 
+There are versions of sratools installed on the hpc, e.g.
+
+```
+source sratoolkit-2.9.0
+```
+
 ## software node and prefetch
 
 This bit gets a little fiddly as only the software node can communicate with the outside world but we want to download the data to either the group folder or scratch space. To get round that I'm going to use two different PuTTY windows, one software and one interactive.
@@ -30,11 +36,6 @@ This should create a directory named SRR3311812 and a file called SRR3311812.sra
 
 We can then proceed to extracting the fastq files.
 
-There are versions of sratools installed on the hpc, e.g.
-
-```
-source sratoolkit-2.9.0
-```
 
 ## fastq-dump
 
